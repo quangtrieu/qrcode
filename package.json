@@ -1,0 +1,35 @@
+{
+  "name": "api-server-starter",
+  "version": "1.0.0",
+  "description": "A lightweight starter kit for building a Node-based API server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangtrieu/qrcode.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "api-server",
+    "express",
+    "starter",
+    "kit"
+  ],
+  "author": "Itealqrcode",
+  "license": "ISC",
+  "homepage": "http://localhost:8080/",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "qrcode": "^1.4.4",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
+  }
+}
